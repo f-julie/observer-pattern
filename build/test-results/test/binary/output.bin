@@ -1,0 +1,73 @@
+2[34mUnit Testing 1 - Concrete Subject Class:[0m
+#Testing Service object constructor
+<[32mTest 1 passed[0m Service class constructor is correct
+2[34mUnit Testing 2 - Concrete Subject Class:[0m
+%Testing addition of Movie to Service
+*[34mInsertion 1 - Adding Firestarter[0m
+Z[32mTest 2 passed: [0mState from Subject (One Movie) is correct. No observers attached.
+2[34mUnit Testing 3 - Concrete Subject Class:[0m
+/Testing addition of multiple Movies to Service
+*[34mInsertion 1 - Adding Firestarter[0m
+,[34mInsertion 2 - Adding Black Panther[0m
+5[34mInsertion 3 - Adding Spiderman: No Way Home[0m
+)[34mInsertion 4 - Adding The Batman[0m
+[32mTest 3 passed: [0m
+CState from Subject (Four Movies) is correct. No observers attached
+3[34mUnit Testing 4 - Concrete Observer Class:[0m
+'Testing Subscriber object notification
+*[34mInsertion 1 - Adding Firestarter[0m
+n[32mTest 4 passed: [0mSubscriber class notification is correct (One movie added, but no observers attached)
+
+	3[34mUnit Testing 5 - Concrete Observer Class:[0m
+
+	<Testing Subscriber object notification - one movie addition
+
+	+[34mInsertion 1 - Adding Firestarter:[0m
+
+	7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+
+	P[32mTest 5 passed: [0mSubscriber class notification is correct (single movie)
+J[34mUnit Testing 6 - Concrete Observer and Concrete Subject Classes:[0m
+BTesting Subscriber object notification - multiple movie additions
++[34mInsertion 1 - Adding Firestarter:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+-[34mInsertion 2 - Adding Black Panther:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+6[34mInsertion 3 - Adding Spiderman: No Way Home:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+*[34mInsertion 4 - Adding The Batman:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+9Title: The Batman Genre: Superhero Year: 2022 Stars: 3.5
+O[32mTest 6 passed: [0mSubscriber class notification is correct (Four Movies)
+J[34mUnit Testing 7 - Concrete Observer and Concrete Subject Classes:[0m
+XTesting Subscriber object notification - multiple movie additions, multiple subscribers
++[34mInsertion 1 - Adding Firestarter:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+-[34mInsertion 2 - Adding Black Panther:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+6[34mInsertion 3 - Adding Spiderman: No Way Home:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+*[34mInsertion 4 - Adding The Batman:[0m
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+9Title: The Batman Genre: Superhero Year: 2022 Stars: 3.5
+7Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+<Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+ETitle: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+9Title: The Batman Genre: Superhero Year: 2022 Stars: 3.5
+^[32mTest 7 passed: [0mSubscriber class notification is correct (Four Movies, Two Observers)
