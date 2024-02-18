@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UnitTest7" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-18T17:14:40" hostname="DESKTOP-URGQT26" time="0.054">
+  <properties/>
+  <testcase name="unitTest7()" classname="UnitTest7" time="0.054"/>
+  <system-out><![CDATA[?[34mUnit Testing 7 - Concrete Observer and Concrete Subject Classes:?[0m
+Testing Subscriber object notification - multiple movie additions, multiple subscribers
+?[34mInsertion 1 - Adding Firestarter:?[0m
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+?[34mInsertion 2 - Adding Black Panther:?[0m
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+?[34mInsertion 3 - Adding Spiderman: No Way Home:?[0m
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+Title: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+Title: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+?[34mInsertion 4 - Adding The Batman:?[0m
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+Title: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+Title: The Batman Genre: Superhero Year: 2022 Stars: 3.5
+Title: Firestarter Genre: Horror Year: 2022 Stars: 3.5
+Title: Black Panther Genre: Superhero Year: 2018 Stars: 4.5
+Title: Spiderman: No Way Home Genre: Superhero Year: 2021 Stars: 4.0
+Title: The Batman Genre: Superhero Year: 2022 Stars: 3.5
+?[32mTest 7 passed: ?[0mSubscriber class notification is correct (Four Movies, Two Observers)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
