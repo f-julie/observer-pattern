@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UnitTest7" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-18T17:14:40" hostname="DESKTOP-URGQT26" time="0.054">
+<testsuite name="UnitTest7" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-29T15:18:25" hostname="DESKTOP-URGQT26" time="0.114">
   <properties/>
-  <testcase name="unitTest7()" classname="UnitTest7" time="0.054"/>
+  <testcase name="unitTest7()" classname="UnitTest7" time="0.114"/>
   <system-out><![CDATA[?[34mUnit Testing 7 - Concrete Observer and Concrete Subject Classes:?[0m
 Testing Subscriber object notification - multiple movie additions, multiple subscribers
 ?[34mInsertion 1 - Adding Firestarter:?[0m
